@@ -27,10 +27,10 @@ public class ConsoleExercises {
         secondWord = sc.next();
         thirdWord = sc.next();
 
-        System.out.print(firstWord);
-        System.out.print(seconWord);
-        System.out.print(firstWord);
-//        What happens if you input something that is not an integer?
+//        System.out.print(firstWord);
+//        System.out.print(seconWord);
+//        System.out.print(firstWord);
+////        What happens if you input something that is not an integer?
 //        Prompt a user to enter 3 words and store each of them in a separate variable, then display them back, each on a newline.
 //                What happens if you enter less than 3 words?
 //                What happens if you enter more than 3 words?
