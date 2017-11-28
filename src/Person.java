@@ -1,16 +1,29 @@
 public class Person {
 
-    public String name;
+    private String name;
+
+    public Person(String name){
+        this.name = name;
+    }
+
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
-    public Person(String name) {
-        this.name = name;
+    public String setName(String newName) {
+        this.name = newName;
+        return this.name;
+    }
+
+    public void sayHello() {
+
+    }
 
 
     }
+
+
 
     //    // returns the person's name
 //    public String getName();
@@ -30,4 +43,3 @@ public class Person {
 //
 //    ;
 
-}
