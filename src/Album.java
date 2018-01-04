@@ -17,4 +17,7 @@ public class Album {
     public static int getNumberOfAlbums() {
         return Album.numberOfAlbums;
     }
+
+    public static class Bob {
+    }
 }
